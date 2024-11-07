@@ -31,3 +31,33 @@ body{
     padding: 2rem;
     border-radius: .5rem;
 }
+
+.auth h1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid silver;
+}
+
+.auth form{
+    margin: 1rem;
+}
+
+.auth input{
+    width: 100%;
+    margin-top: 2rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: .15rem solid rgb(163,163,163);
+    padding: 0 0.5rem;
+    outline: none;
+}
+
+.auth input:hover{
+    border-bottom: .15rem solid #0086da;
+}
+
+.auth input::placeholder{
+    color:rgb(163,163,163);
+}
